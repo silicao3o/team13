@@ -36,7 +36,7 @@ public class Post extends Timestamped {
 	public Post(String content, User user) {
 		this.content = content;
 		this.user = user;
-		// this.likeCount = (long) (Math.random()* 1_000_000_000); //좋아요 조작
+		 //this.likeCount = (long) (Math.random()* 1_000_000_000); //좋아요 조작
 		this.likeCount = 0L;
 	}
 
